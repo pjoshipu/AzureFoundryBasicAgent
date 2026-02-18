@@ -1,0 +1,7 @@
+{
+  "seattle": { "temp": "54°F", "condition": "Cloudy", "humidity": "78%", "wind": "12 mph NW" },
+  "new york": { "temp": "37°F", "condition": "Sunny", "humidity": "45%", "wind": "8 mph E" },
+  "london": { "temp": "48°F", "condition": "Rainy", "humidity": "88%", "wind": "15 mph SW" },
+  "tokyo": { "temp": "62°F", "condition": "Partly Cloudy", "humidity": "60%", "wind": "5 mph S" },
+  "mumbai": { "temp": "86°F", "condition": "Humid", "humidity": "92%", "wind": "7 mph W" }
+}

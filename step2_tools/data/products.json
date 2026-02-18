@@ -1,0 +1,18 @@
+{
+  "electronics": [
+    { "name": "Wireless Mouse", "price": 29.99, "stock": 150 },
+    { "name": "USB-C Hub", "price": 49.99, "stock": 75 },
+    { "name": "Bluetooth Speaker", "price": 79.99, "stock": 30 },
+    { "name": "Mechanical Keyboard", "price": 129.99, "stock": 45 }
+  ],
+  "books": [
+    { "name": "Python Crash Course", "price": 35.99, "stock": 200 },
+    { "name": "Clean Code", "price": 40.99, "stock": 120 },
+    { "name": "Designing Data-Intensive Apps", "price": 45.99, "stock": 60 }
+  ],
+  "clothing": [
+    { "name": "Cotton T-Shirt", "price": 19.99, "stock": 300 },
+    { "name": "Denim Jacket", "price": 89.99, "stock": 40 },
+    { "name": "Running Shoes", "price": 119.99, "stock": 55 }
+  ]
+}

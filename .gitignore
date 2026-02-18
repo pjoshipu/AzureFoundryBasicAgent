@@ -1,2 +1,12 @@
 .env
 __pycache__/
+.claude/
+
+# Azurite local storage data
+__azurite_db_*
+__blobstorage__/
+__queuestorage__/
+AzuriteConfig/
+
+# Azure Functions local settings (contains connection strings)
+local.settings.json

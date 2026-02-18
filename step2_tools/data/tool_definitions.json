@@ -1,0 +1,45 @@
+[
+  {
+    "type": "function",
+    "name": "get_weather",
+    "description": "Get current weather for a given city. Use this when the user asks about weather conditions.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "city": { "type": "string", "description": "City name, e.g. 'Seattle'" }
+      },
+      "required": ["city"]
+    }
+  },
+  {
+    "type": "function",
+    "name": "query_products",
+    "description": "Query the product database. Use this when the user asks about products, inventory, or prices.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "category": {
+          "type": "string",
+          "description": "Product category to search, e.g. 'electronics', 'books', 'clothing'"
+        },
+        "max_price": {
+          "type": "number",
+          "description": "Maximum price filter (optional)"
+        }
+      },
+      "required": ["category"]
+    }
+  },
+  {
+    "type": "function",
+    "name": "search_knowledge_base",
+    "description": "Search the company knowledge base for information. Use this for company policies, FAQs, or documentation.",
+    "parameters": {
+      "type": "object",
+      "properties": {
+        "query": { "type": "string", "description": "Search query string" }
+      },
+      "required": ["query"]
+    }
+  }
+]
