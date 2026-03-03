@@ -1,7 +1,8 @@
-azure-ai-projects>=2.0.0b1
+azure-ai-projects==2.0.0b3
+azure-ai-agents==1.2.0b5
 azure-identity
 python-dotenv
-gradio>=5.0.0
-agent-framework>=1.0.0b260212
+gradio==6.5.1
+agent-framework==1.0.0b260212
 requests
 typing-extensions
