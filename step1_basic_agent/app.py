@@ -40,7 +40,7 @@ def send_message(user_prompt):
 guide_path = Path(__file__).parent / "instructions.md"
 guide_content = guide_path.read_text(encoding="utf-8") if guide_path.exists() else "instructions.md not found."
 
-with gr.Blocks(title="Step 1: Basic Agent") as app:
+with gr.Blocks(title="Step 1: Basic Agent", theme=gr.themes.Soft(primary_hue="purple")) as app:
     gr.Markdown("# Step 1: Basic Azure Foundry Agent")
 
     with gr.Tab("Agent"):

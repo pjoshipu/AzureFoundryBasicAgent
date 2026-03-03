@@ -253,7 +253,7 @@ PIPELINE_DIAGRAM = """
 ```
 """
 
-with gr.Blocks(title="Step 5: Workflows") as app:
+with gr.Blocks(title="Step 5: Workflows", theme=gr.themes.Soft(primary_hue="purple")) as app:
     gr.Markdown("# Step 5: Workflows — CI/CD Pipeline")
     gr.Markdown(
         "A workflow built with **Executors**, **Edges**, and **Events** using the "

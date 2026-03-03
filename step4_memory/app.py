@@ -162,7 +162,7 @@ STARTER_PROMPTS = [
     ["What do you remember about me?"],
 ]
 
-with gr.Blocks(title="Step 4: Memory & Persistence", theme=gr.themes.Soft()) as app:
+with gr.Blocks(title="Step 4: Memory & Persistence", theme=gr.themes.Soft(primary_hue="purple")) as app:
     gr.Markdown("# Step 4: Memory & Persistence")
     gr.Markdown(
         "This agent uses a **Context Provider** to extract and remember user preferences "

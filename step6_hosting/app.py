@@ -70,7 +70,7 @@ SAMPLE_PROMPTS = [
     "Explain Azure Functions in simple terms.",
 ]
 
-with gr.Blocks(title="Step 6: Host Your Agent") as app:
+with gr.Blocks(title="Step 6: Host Your Agent", theme=gr.themes.Soft(primary_hue="purple")) as app:
     gr.Markdown("# Step 6: Host Your Agent")
     gr.Markdown(
         "This UI tests your agent hosted via **Azure Functions**. "

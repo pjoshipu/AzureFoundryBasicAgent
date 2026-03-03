@@ -73,7 +73,7 @@ def reset_session():
 guide_path = Path(__file__).parent / "instructions.md"
 guide_content = guide_path.read_text(encoding="utf-8") if guide_path.exists() else "instructions.md not found."
 
-with gr.Blocks(title="Step 3: Multi-Turn Conversation", theme=gr.themes.Soft()) as app:
+with gr.Blocks(title="Step 3: Multi-Turn Conversation", theme=gr.themes.Soft(primary_hue="purple")) as app:
     gr.Markdown("# Step 3: Multi-Turn Conversation")
     gr.Markdown(
         "This agent **remembers the entire conversation** using `previous_response_id` to chain "
@@ -112,6 +112,7 @@ with gr.Blocks(title="Step 3: Multi-Turn Conversation", theme=gr.themes.Soft()) 
         )
 
         # Wire events
+        
         send_btn.click(
             fn=chat,
             inputs=[user_input, chatbot, session_id],

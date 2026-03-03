@@ -25,7 +25,7 @@ response = client.responses.create(
     input=[{"role": "user", "content": "What's my name?"}],
     previous_response_id=response.id,
 )
-```
+
 
 ## Demo flow
 
